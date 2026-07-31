@@ -1,0 +1,8 @@
+# KiCad local/session files
+*.kicad_prl
+~*.lck
+
+# KiCad backups
+*-backups/
+*.kicad_pcb-bak
+*.kicad_sch-bak

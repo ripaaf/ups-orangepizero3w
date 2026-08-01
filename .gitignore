@@ -6,3 +6,11 @@
 *-backups/
 *.kicad_pcb-bak
 *.kicad_sch-bak
+
+# KiCad temporary/cache files
+#auto_saved_files#
+_autosave-*
+fp-info-cache
+*.kicad_prl
+~*.lck
+*-backups/

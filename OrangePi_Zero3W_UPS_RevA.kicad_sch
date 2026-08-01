@@ -5,6 +5,177 @@
 	(uuid "2ed0c742-c3ae-41d0-bdfb-a7d8a0a9a5f4")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x03"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x03_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_02x20_Odd_Even"
 			(pin_names
 				(offset 1.016)
@@ -1933,6 +2104,117 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "J2 pin order is provisional.\nVerify BAT+, NTC and BAT- against the final battery pack\nbefore assigning the footprint or manufacturing the PCB.\nProtected 1S LiPo pack required."
+		(exclude_from_sim no)
+		(at 162.052 60.96 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+		)
+		(uuid "764c0206-5a33-46f7-8487-0c6ed3499ca3")
 	)
 	(text "MAX17048G+T10\n1-cell Li-ion fuel gauge\nI2C 7-bit address: 0x36\nALRT unused in Rev A"
 		(exclude_from_sim no)
@@ -2068,6 +2350,36 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 62.23) (xy 140.97 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0216f68e-1017-4b64-b6f6-32429c0339ad")
+	)
+	(wire
+		(pts
+			(xy 125.73 46.99) (xy 133.35 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "075e1d91-d561-4526-8bd9-9aec222ef584")
+	)
+	(wire
+		(pts
+			(xy 125.73 49.53) (xy 133.35 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "188713c1-3a7a-4f9c-ae65-9cf33e2bd761")
+	)
+	(wire
+		(pts
 			(xy 111.76 25.4) (xy 113.03 25.4)
 		)
 		(stroke
@@ -2158,6 +2470,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 64.77) (xy 130.81 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c05ce5f-2ca3-49d4-a77e-25224f87d332")
+	)
+	(wire
+		(pts
 			(xy 68.58 49.53) (xy 68.58 50.8)
 		)
 		(stroke
@@ -2228,6 +2550,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 52.07) (xy 133.35 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5998a7b-2efc-4f52-b409-66ef3d412cf9")
+	)
+	(wire
+		(pts
 			(xy 113.03 27.94) (xy 111.76 27.94)
 		)
 		(stroke
@@ -2276,6 +2608,16 @@
 		)
 		(uuid "191dde51-b643-4cc7-82ed-d4569513e2c2")
 	)
+	(label "BAT_NTC"
+		(at 125.73 49.53 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "2a2bcd17-580c-4436-ad74-c33650196023")
+	)
 	(label "I2C_SCL"
 		(at 40.64 26.67 0)
 		(effects
@@ -2315,6 +2657,16 @@
 			(justify left bottom)
 		)
 		(uuid "7cde1780-8541-490b-b934-e03a1093669c")
+	)
+	(label "BAT_POS"
+		(at 125.73 46.99 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "86bfce24-030b-492b-97c2-a5c159f0d9a4")
 	)
 	(label "BAT_POS"
 		(at 113.03 27.94 0)
@@ -2395,6 +2747,16 @@
 			(justify left bottom)
 		)
 		(uuid "eed90309-99b6-498d-a2aa-a9fc88e2dad8")
+	)
+	(label "BAT_POS"
+		(at 130.81 64.77 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "ef2a2b6b-b0cc-43a3-ba87-849efa4640c2")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -2595,6 +2957,72 @@
 			(project ""
 				(path "/2ed0c742-c3ae-41d0-bdfb-a7d8a0a9a5f4"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 140.97 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14c910bb-c87f-4729-878e-59f17edc3a7b")
+		(property "Reference" "#FLG02"
+			(at 140.97 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 140.97 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 140.97 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a1f32ea-1e02-4311-854c-89042627e254")
+		)
+		(instances
+			(project "OrangePi_Zero3W_UPS_RevA"
+				(path "/2ed0c742-c3ae-41d0-bdfb-a7d8a0a9a5f4"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -2802,6 +3230,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 130.81 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a2bbdd2-65a1-49ae-83ea-02327d839566")
+		(property "Reference" "#FLG01"
+			(at 130.81 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 130.81 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 130.81 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4c8dbbf5-40a6-4d81-bc23-b6649cf52313")
+		)
+		(instances
+			(project ""
+				(path "/2ed0c742-c3ae-41d0-bdfb-a7d8a0a9a5f4"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 119.38 22.86 90)
 		(unit 1)
@@ -2863,6 +3357,73 @@
 			(project ""
 				(path "/2ed0c742-c3ae-41d0-bdfb-a7d8a0a9a5f4"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 130.81 52.07 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "823a369f-681f-408e-a2d0-34d46906acff")
+		(property "Reference" "#PWR014"
+			(at 124.46 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 127 52.0699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 130.81 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "91c18dcf-7090-47f6-b1f6-9396138ce82a")
+		)
+		(instances
+			(project ""
+				(path "/2ed0c742-c3ae-41d0-bdfb-a7d8a0a9a5f4"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -3069,7 +3630,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "3µA 1-Cell/2-Cell Fuel Gauge with ModelGauge"
+		(property "Description_1" "1-Cell Li-ion Fuel Gauge with ModelGauge"
 			(at 93.98 35.56 0)
 			(effects
 				(font
@@ -3079,7 +3640,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "TDFN-8 Maxim"
+		(property "Package" "TDFN-8-EP, T822+3"
 			(at 93.98 35.56 0)
 			(effects
 				(font
@@ -3109,7 +3670,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "MAX17048G+T10"
+		(property "MPN" "MAX17048G+T10"
 			(at 93.98 35.56 0)
 			(effects
 				(font
@@ -3429,6 +3990,72 @@
 			(project ""
 				(path "/2ed0c742-c3ae-41d0-bdfb-a7d8a0a9a5f4"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 140.97 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a93a1fa1-4974-4e47-aa90-7bf9bf23d8eb")
+		(property "Reference" "#PWR015"
+			(at 140.97 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 140.97 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 140.97 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d09bc91-7daf-493b-bbdf-5f30f409c650")
+		)
+		(instances
+			(project ""
+				(path "/2ed0c742-c3ae-41d0-bdfb-a7d8a0a9a5f4"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -3767,6 +4394,79 @@
 			(project ""
 				(path "/2ed0c742-c3ae-41d0-bdfb-a7d8a0a9a5f4"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 138.43 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eebafdd9-ace5-4099-8def-17c315466bf3")
+		(property "Reference" "J2"
+			(at 140.97 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BATTERY_1S_PROTECTED_NTC"
+			(at 140.97 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 138.43 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "861c10c1-1de6-449f-af4f-f8924c915cf0")
+		)
+		(pin "2"
+			(uuid "ec6fc8aa-52bc-4761-94cf-91c448d75568")
+		)
+		(pin "3"
+			(uuid "09742aac-6783-4cbd-843a-de0c320d2ee6")
+		)
+		(instances
+			(project ""
+				(path "/2ed0c742-c3ae-41d0-bdfb-a7d8a0a9a5f4"
+					(reference "J2")
 					(unit 1)
 				)
 			)

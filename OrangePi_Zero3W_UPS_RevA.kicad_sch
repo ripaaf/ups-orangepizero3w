@@ -3247,6 +3247,10 @@
 		(uuid "9d752572-bc36-4b45-bb34-be88650594e1")
 	)
 	(no_connect
+		(at 238.76 49.53)
+		(uuid "9eaf890a-b14e-4e26-bfd7-0c71d409012e")
+	)
+	(no_connect
 		(at 34.29 54.61)
 		(uuid "c3e276f7-bee9-435c-943a-0a2cc216e966")
 	)
@@ -3265,6 +3269,10 @@
 	(no_connect
 		(at 21.59 54.61)
 		(uuid "dd133948-1869-49e1-b844-eaa0dd41e7e7")
+	)
+	(no_connect
+		(at 238.76 54.61)
+		(uuid "e578cb29-a6c7-4279-8e23-2755d3f74860")
 	)
 	(no_connect
 		(at 21.59 39.37)
@@ -4217,6 +4225,16 @@
 			(justify left bottom)
 		)
 		(uuid "6a3e6b88-a7f7-4fda-b9d3-1c9748c19b98")
+	)
+	(label "REGN"
+		(at 243.84 55.88 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "73de3714-c9a9-4e24-aa3a-5222e48d5399")
 	)
 	(label "SW_CHG"
 		(at 262.89 50.8 0)

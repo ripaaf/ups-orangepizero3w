@@ -1,4 +1,4 @@
-26650656621125717
+26652442323529071
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -99254,6 +99254,13 @@ Logo WEEE
 0
 TPS61088RHLR
 IC_TPS61088RHLR
+
+
+0
+21
+21
+TPS61088RHLR-copy
+IC_TPS61088RHLR-copy
 
 
 0

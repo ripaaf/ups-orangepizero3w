@@ -6724,7 +6724,7 @@
 		)
 		(uuid "6298cc6f-5f46-4402-8c59-9a7dc2cd7f69")
 	)
-	(label "USB_VBUS_RAW"
+	(label "USB_VBUS_SAFE"
 		(at 162.56 142.24 0)
 		(effects
 			(font
@@ -7024,7 +7024,7 @@
 		)
 		(uuid "d9738073-cba4-464d-983f-452c1f6a24c2")
 	)
-	(label "USB_VBUS_SAFE"
+	(label "USB_VBUS_RAW"
 		(at 142.24 142.24 0)
 		(effects
 			(font

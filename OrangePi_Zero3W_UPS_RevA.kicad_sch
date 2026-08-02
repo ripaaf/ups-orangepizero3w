@@ -10176,7 +10176,7 @@
 				(hide yes)
 			)
 		)
-		(property "Function" "SB 5V VBUS TVS"
+		(property "Function" "USB 5V VBUS TVS"
 			(at 157.48 105.41 0)
 			(effects
 				(font

@@ -7682,6 +7682,16 @@
 	)
 	(wire
 		(pts
+			(xy 367.03 152.4) (xy 367.03 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c75e1be-a367-452f-bdd0-009fe8f98f76")
+	)
+	(wire
+		(pts
 			(xy 358.14 144.78) (xy 358.14 153.67)
 		)
 		(stroke
@@ -8032,6 +8042,16 @@
 	)
 	(wire
 		(pts
+			(xy 359.41 142.24) (xy 359.41 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ae44ad0-e947-4126-9b99-df82de7b1839")
+	)
+	(wire
+		(pts
 			(xy 254 43.18) (xy 256.54 43.18)
 		)
 		(stroke
@@ -8302,6 +8322,16 @@
 	)
 	(wire
 		(pts
+			(xy 353.06 142.24) (xy 359.41 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c460589-6280-4569-8a2e-b9443fb13348")
+	)
+	(wire
+		(pts
 			(xy 373.38 181.61) (xy 373.38 184.15)
 		)
 		(stroke
@@ -8509,6 +8539,16 @@
 			(type default)
 		)
 		(uuid "79c9bbf3-f73a-45dd-a5ae-d5e9bf9b8bff")
+	)
+	(wire
+		(pts
+			(xy 367.03 166.37) (xy 386.08 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79f0bafe-6582-4788-ab85-a8942b19a4bb")
 	)
 	(wire
 		(pts
@@ -8732,6 +8772,16 @@
 	)
 	(wire
 		(pts
+			(xy 359.41 152.4) (xy 367.03 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aab61677-887f-4955-b52a-cfb66d850a98")
+	)
+	(wire
+		(pts
 			(xy 307.34 147.32) (xy 317.5 147.32)
 		)
 		(stroke
@@ -8789,6 +8839,16 @@
 			(type default)
 		)
 		(uuid "b55b347f-630b-417b-ad2a-88af363adea6")
+	)
+	(wire
+		(pts
+			(xy 288.29 142.24) (xy 288.29 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5c60c2e-8dcd-4cf8-ba9a-7f19bbf2d34e")
 	)
 	(wire
 		(pts
@@ -8869,6 +8929,16 @@
 			(type default)
 		)
 		(uuid "bf09fc0e-bf5b-45be-a94c-4e9875b49212")
+	)
+	(wire
+		(pts
+			(xy 288.29 162.56) (xy 288.29 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0067b5c-1860-4ab0-a6e2-8f4ca963048f")
 	)
 	(wire
 		(pts
@@ -8999,6 +9069,16 @@
 			(type default)
 		)
 		(uuid "d58bba47-6116-416a-9eb9-480fdcb6c737")
+	)
+	(wire
+		(pts
+			(xy 317.5 142.24) (xy 288.29 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d71e1731-4a6e-4584-8748-9f2fc673c690")
 	)
 	(wire
 		(pts
@@ -9389,6 +9469,16 @@
 			(justify left bottom)
 		)
 		(uuid "1a7fa3b7-5464-4db7-97ae-ac33c6f914c0")
+	)
+	(label "BOOST_SW"
+		(at 288.29 162.56 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "275da544-41a5-4dca-9b7f-95f5798b870c")
 	)
 	(label "USB_CC2"
 		(at 139.7 261.62 0)
@@ -14477,7 +14567,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field5" "1%"
+		(property "tolerance" "1%"
 			(at 271.78 137.16 0)
 			(effects
 				(font
@@ -14496,6 +14586,103 @@
 			(project ""
 				(path "/2ed0c742-c3ae-41d0-bdfb-a7d8a0a9a5f4"
 					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 288.29 153.67 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a8348ac-eb5e-46f3-9e8a-906c94b50493")
+		(property "Reference" "R17"
+			(at 290.83 152.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "267k"
+			(at 290.83 154.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 290.068 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 288.29 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 288.29 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "tolerance" "1%"
+			(at 288.29 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" "TPS61088 switching-frequency programming"
+			(at 288.29 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Target" "approximately 600kHz"
+			(at 288.29 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fe3f413a-b2f6-4bcd-b498-799edc00d95d")
+		)
+		(pin "1"
+			(uuid "816436dd-75f0-4c33-93c4-f0c523486aad")
+		)
+		(instances
+			(project "OrangePi_Zero3W_UPS_RevA"
+				(path "/2ed0c742-c3ae-41d0-bdfb-a7d8a0a9a5f4"
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -14629,6 +14816,73 @@
 			(project ""
 				(path "/2ed0c742-c3ae-41d0-bdfb-a7d8a0a9a5f4"
 					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 393.7 166.37 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c21fb89-394e-4536-8ada-702e04b29610")
+		(property "Reference" "#PWR063"
+			(at 400.05 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 397.51 166.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 393.7 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 393.7 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 393.7 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f0613cd-557f-4455-aa7e-c31550ed53e5")
+		)
+		(instances
+			(project "OrangePi_Zero3W_UPS_RevA"
+				(path "/2ed0c742-c3ae-41d0-bdfb-a7d8a0a9a5f4"
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -16149,6 +16403,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 389.89 166.37 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "939975b7-7958-42c4-90b0-accb974bf484")
+		(property "Reference" "R18"
+			(at 389.89 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 389.89 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 389.89 168.148 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 389.89 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 389.89 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "tolerance" "1%"
+			(at 389.89 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "42f82ca7-c49b-40af-a4bf-9dc21f6cfbe7")
+		)
+		(pin "1"
+			(uuid "f987a65c-e6d9-444b-8fee-2e405a356f72")
+		)
+		(instances
+			(project "OrangePi_Zero3W_UPS_RevA"
+				(path "/2ed0c742-c3ae-41d0-bdfb-a7d8a0a9a5f4"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 21.59 36.83 270)
 		(unit 1)
@@ -17191,7 +17522,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field5" "1%"
+		(property "tolerance" "1%"
 			(at 278.13 147.32 0)
 			(effects
 				(font

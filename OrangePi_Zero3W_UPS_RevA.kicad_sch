@@ -5962,7 +5962,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at 17.78 22.86 180)
 					(length 5.08)
 					(name "VCC"
@@ -7456,6 +7456,16 @@
 		)
 		(uuid "764c0206-5a33-46f7-8487-0c6ed3499ca3")
 	)
+	(text "TPS61088 default ON\nEN pulled up to SYS_BAT"
+		(exclude_from_sim no)
+		(at 287.782 143.256 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+		)
+		(uuid "84fa7345-1750-4ea6-894e-6d6360d4570f")
+	)
 	(text "BQ25895RTWR\n1-cell charger + NVDC power path\nI2C 7-bit address: 0x6A"
 		(exclude_from_sim no)
 		(at 309.372 16.256 0)
@@ -7487,6 +7497,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "118ba991-21a2-4f80-a537-5866289e3560")
+	)
+	(junction
+		(at 386.08 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3641aa0-46ab-4532-ab77-c448216ecf47")
 	)
 	(junction
 		(at 260.35 90.17)
@@ -7764,6 +7780,26 @@
 	)
 	(wire
 		(pts
+			(xy 386.08 130.81) (xy 386.08 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1572fd90-45d5-4548-a5a3-e5cb6381b465")
+	)
+	(wire
+		(pts
+			(xy 386.08 130.81) (xy 386.08 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15d1f690-76fa-49dc-ac30-78040ec998e5")
+	)
+	(wire
+		(pts
 			(xy 195.58 236.22) (xy 204.47 236.22)
 		)
 		(stroke
@@ -7874,6 +7910,16 @@
 	)
 	(wire
 		(pts
+			(xy 292.1 148.59) (xy 299.72 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2985e3e8-18e8-4c63-8d5a-e332502bd313")
+	)
+	(wire
+		(pts
 			(xy 35.56 24.13) (xy 34.29 24.13)
 		)
 		(stroke
@@ -7961,6 +8007,16 @@
 			(type default)
 		)
 		(uuid "3478a170-435f-48de-9e50-b4b57bb4d4c3")
+	)
+	(wire
+		(pts
+			(xy 398.78 134.62) (xy 398.78 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "352d67b8-7fb5-4c09-890c-1c655d7b0811")
 	)
 	(wire
 		(pts
@@ -8204,6 +8260,16 @@
 	)
 	(wire
 		(pts
+			(xy 312.42 135.89) (xy 317.5 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "628d85b1-16fd-47e4-a154-66e022cdc0a0")
+	)
+	(wire
+		(pts
 			(xy 201.93 255.27) (xy 207.01 255.27)
 		)
 		(stroke
@@ -8361,6 +8427,16 @@
 			(type default)
 		)
 		(uuid "79c9bbf3-f73a-45dd-a5ae-d5e9bf9b8bff")
+	)
+	(wire
+		(pts
+			(xy 363.22 135.89) (xy 363.22 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f13195b-840e-4013-81cb-e18eaf08a567")
 	)
 	(wire
 		(pts
@@ -8544,6 +8620,16 @@
 	)
 	(wire
 		(pts
+			(xy 398.78 130.81) (xy 386.08 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6620870-adf4-45fa-b3aa-c9c2f7e6d6ed")
+	)
+	(wire
+		(pts
 			(xy 304.8 41.91) (xy 303.53 41.91)
 		)
 		(stroke
@@ -8554,6 +8640,16 @@
 	)
 	(wire
 		(pts
+			(xy 307.34 161.29) (xy 317.5 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaf02137-bd49-4798-922e-17968ff53d08")
+	)
+	(wire
+		(pts
 			(xy 195.58 231.14) (xy 210.82 231.14)
 		)
 		(stroke
@@ -8561,6 +8657,16 @@
 			(type default)
 		)
 		(uuid "ad13f1f2-59ab-4c87-94af-2e53cf511f92")
+	)
+	(wire
+		(pts
+			(xy 372.11 130.81) (xy 386.08 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ada18679-66a4-4843-8c46-958aaaef6b44")
 	)
 	(wire
 		(pts
@@ -8594,6 +8700,16 @@
 	)
 	(wire
 		(pts
+			(xy 372.11 134.62) (xy 372.11 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8b6873a-c51f-4c57-a830-e90cd72d3c7c")
+	)
+	(wire
+		(pts
 			(xy 307.34 64.77) (xy 328.93 64.77)
 		)
 		(stroke
@@ -8621,6 +8737,16 @@
 			(type default)
 		)
 		(uuid "be4e31ef-86b8-409f-aec9-e902180a8654")
+	)
+	(wire
+		(pts
+			(xy 363.22 158.75) (xy 368.3 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be527a70-61d2-4cf2-82c7-347c23bb55cc")
 	)
 	(wire
 		(pts
@@ -8714,6 +8840,16 @@
 	)
 	(wire
 		(pts
+			(xy 353.06 135.89) (xy 363.22 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0042c0e-b384-47ee-b6dc-25257bf46665")
+	)
+	(wire
+		(pts
 			(xy 264.16 90.17) (xy 260.35 90.17)
 		)
 		(stroke
@@ -8741,6 +8877,16 @@
 			(type default)
 		)
 		(uuid "d58bba47-6116-416a-9eb9-480fdcb6c737")
+	)
+	(wire
+		(pts
+			(xy 307.34 148.59) (xy 317.5 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7329fd6-b7f2-4b68-8a88-e4afbfeaa173")
 	)
 	(wire
 		(pts
@@ -9162,6 +9308,16 @@
 		)
 		(uuid "5383a496-3471-408f-9859-b1301691a69f")
 	)
+	(label "SYS_BAT"
+		(at 386.08 127 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "572171f3-54cb-466b-9795-6ce7786d5294")
+	)
 	(label "BAT_NTC"
 		(at 264.16 90.17 0)
 		(effects
@@ -9171,6 +9327,16 @@
 			(justify left bottom)
 		)
 		(uuid "58d36894-ab80-44b3-8eda-521120c3cef5")
+	)
+	(label "SYS_BAT"
+		(at 312.42 135.89 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "58ef8788-cf99-4046-a6f8-49894a0d454c")
 	)
 	(label "HOST_3V3"
 		(at 337.82 64.77 0)
@@ -9371,6 +9537,16 @@
 			(justify left bottom)
 		)
 		(uuid "87c3b3b6-45e8-4509-8f52-ef85faef30b9")
+	)
+	(label "SYS_BAT"
+		(at 292.1 148.59 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "8c890291-7501-4e18-bb45-6e2aa85778c7")
 	)
 	(label "USB_DM_CONN"
 		(at 289.56 245.11 0)
@@ -10580,6 +10756,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 386.08 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "191c3115-dc11-4745-88b2-ebe05f2c3db5")
+		(property "Reference" "#PWR048"
+			(at 386.08 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 386.08 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 386.08 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 386.08 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 386.08 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "122f2eb3-6612-4307-95a7-53f2da476079")
+		)
+		(instances
+			(project "OrangePi_Zero3W_UPS_RevA"
+				(path "/2ed0c742-c3ae-41d0-bdfb-a7d8a0a9a5f4"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 278.13 233.68 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10925,6 +11167,72 @@
 			(project ""
 				(path "/2ed0c742-c3ae-41d0-bdfb-a7d8a0a9a5f4"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 372.11 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d3e253d-bb23-4450-8b33-2819bcf657ec")
+		(property "Reference" "#PWR047"
+			(at 372.11 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 372.11 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 372.11 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 372.11 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 372.11 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "48ea1a19-1439-40a4-ba74-691832d48d4a")
+		)
+		(instances
+			(project ""
+				(path "/2ed0c742-c3ae-41d0-bdfb-a7d8a0a9a5f4"
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -11398,6 +11706,94 @@
 			(project ""
 				(path "/2ed0c742-c3ae-41d0-bdfb-a7d8a0a9a5f4"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 386.08 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3606f5fc-11f2-481f-b6df-294f0a4af5c8")
+		(property "Reference" "C14"
+			(at 389.89 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 389.89 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 387.0452 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 386.08 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 386.08 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "10V minimum"
+			(at 386.08 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X5R/X7R"
+			(at 386.08 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "57e0a1dd-5b2e-4d49-883b-548adda10e77")
+		)
+		(pin "2"
+			(uuid "dbd11c8d-8188-40d7-ae8c-76eca54928a8")
+		)
+		(instances
+			(project "OrangePi_Zero3W_UPS_RevA"
+				(path "/2ed0c742-c3ae-41d0-bdfb-a7d8a0a9a5f4"
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -12718,6 +13114,159 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 353.06 181.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55d5fed6-7de8-435a-92ec-a5edcad51e10")
+		(property "Reference" "#PWR052"
+			(at 359.41 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 356.87 181.6099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 353.06 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 353.06 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 353.06 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f342bf4e-203e-49ab-bf16-2e0979d488a6")
+		)
+		(instances
+			(project "OrangePi_Zero3W_UPS_RevA"
+				(path "/2ed0c742-c3ae-41d0-bdfb-a7d8a0a9a5f4"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 372.11 158.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a7cd98d-5bcb-4567-90b2-d381b27b5dc5")
+		(property "Reference" "C16"
+			(at 372.11 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 372.11 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 375.92 157.7848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 372.11 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 372.11 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "10V minimum"
+			(at 372.11 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X5R/X7R"
+			(at 372.11 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "faeda8bf-c3af-41f3-a817-fb45ced0d395")
+		)
+		(pin "2"
+			(uuid "6cf53719-15c7-4069-b772-351535ef0ac8")
+		)
+		(instances
+			(project "OrangePi_Zero3W_UPS_RevA"
+				(path "/2ed0c742-c3ae-41d0-bdfb-a7d8a0a9a5f4"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 304.8 24.13 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13881,6 +14430,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 303.53 148.59 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88030264-78be-47d6-9322-d23ba57648d8")
+		(property "Reference" "R13"
+			(at 303.53 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 303.53 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 303.53 146.812 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 303.53 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 303.53 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1f2bb4ab-de65-4147-8914-cecb3feda0b1")
+		)
+		(pin "2"
+			(uuid "3c05e947-40da-49e1-b74e-c5adf1535d41")
+		)
+		(instances
+			(project ""
+				(path "/2ed0c742-c3ae-41d0-bdfb-a7d8a0a9a5f4"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 34.29 69.85 90)
 		(unit 1)
@@ -14629,6 +15246,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 372.11 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a191cc7-5abe-4a55-a920-dbf1c29c0e8a")
+		(property "Reference" "C13"
+			(at 375.92 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 375.92 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 373.0752 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 372.11 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 372.11 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "10V minimum"
+			(at 372.11 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 372.11 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d7d9428-ec39-4f8c-8d55-9f9fe88f565f")
+		)
+		(pin "2"
+			(uuid "4104e54d-47c9-4c52-9f33-4bb884c1640d")
+		)
+		(instances
+			(project ""
+				(path "/2ed0c742-c3ae-41d0-bdfb-a7d8a0a9a5f4"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 254 50.8 270)
 		(unit 1)
@@ -14758,6 +15463,73 @@
 			(project ""
 				(path "/2ed0c742-c3ae-41d0-bdfb-a7d8a0a9a5f4"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 299.72 161.29 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a02e1eb5-76d8-49d5-8e7b-296349493b9b")
+		(property "Reference" "#PWR051"
+			(at 293.37 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 295.91 161.2899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 299.72 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 299.72 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 299.72 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd00959e-ea80-40d2-8318-84c1fb5cf426")
+		)
+		(instances
+			(project "OrangePi_Zero3W_UPS_RevA"
+				(path "/2ed0c742-c3ae-41d0-bdfb-a7d8a0a9a5f4"
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -15101,6 +15873,94 @@
 			(project ""
 				(path "/2ed0c742-c3ae-41d0-bdfb-a7d8a0a9a5f4"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 398.78 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2eab39f-d7d8-4fb1-8d53-a6e30ef28612")
+		(property "Reference" "C15"
+			(at 402.59 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 402.59 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 399.7452 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 398.78 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 398.78 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "10V minimum"
+			(at 398.78 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X5R/X7R"
+			(at 398.78 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d2cba15-fd45-4a43-92b6-f4674fcd3799")
+		)
+		(pin "2"
+			(uuid "2fbb0ab8-b9ce-4547-ba5b-d64f688dd11c")
+		)
+		(instances
+			(project "OrangePi_Zero3W_UPS_RevA"
+				(path "/2ed0c742-c3ae-41d0-bdfb-a7d8a0a9a5f4"
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -15717,6 +16577,73 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 353.06 171.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b750103f-b6dc-4170-b544-1548b343be82")
+		(property "Reference" "#PWR054"
+			(at 359.41 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 356.87 171.4499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 353.06 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 353.06 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 353.06 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "116a7248-6117-4e6f-889a-665e62f4b506")
+		)
+		(instances
+			(project "OrangePi_Zero3W_UPS_RevA"
+				(path "/2ed0c742-c3ae-41d0-bdfb-a7d8a0a9a5f4"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 34.29 31.75 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15777,6 +16704,73 @@
 			(project ""
 				(path "/2ed0c742-c3ae-41d0-bdfb-a7d8a0a9a5f4"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 375.92 158.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b87307f2-1836-49ae-8c1e-8942d655a044")
+		(property "Reference" "#PWR050"
+			(at 382.27 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 379.73 158.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 375.92 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 375.92 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 375.92 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "53adf834-3509-4513-83d1-e93ddbb18782")
+		)
+		(instances
+			(project "OrangePi_Zero3W_UPS_RevA"
+				(path "/2ed0c742-c3ae-41d0-bdfb-a7d8a0a9a5f4"
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -15982,6 +16976,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 398.78 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c313d46c-851d-40b9-88ce-9e5da2314c45")
+		(property "Reference" "#PWR049"
+			(at 398.78 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 398.78 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 398.78 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 398.78 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 398.78 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7183e70-c4f7-47a3-a932-fec6ed252818")
+		)
+		(instances
+			(project "OrangePi_Zero3W_UPS_RevA"
+				(path "/2ed0c742-c3ae-41d0-bdfb-a7d8a0a9a5f4"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 138.43 34.29 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16042,6 +17102,150 @@
 			(project ""
 				(path "/2ed0c742-c3ae-41d0-bdfb-a7d8a0a9a5f4"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 303.53 161.29 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3ab470b-4641-4f3c-b453-3758d93ff131")
+		(property "Reference" "R14"
+			(at 303.53 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 303.53 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 303.53 159.512 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 303.53 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 303.53 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" "MODE configuration"
+			(at 303.53 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a65b6e7b-fc2e-477d-ba25-e7191fd83667")
+		)
+		(pin "2"
+			(uuid "601c787a-7dbd-4824-9a07-d56a0bd92eb5")
+		)
+		(instances
+			(project "OrangePi_Zero3W_UPS_RevA"
+				(path "/2ed0c742-c3ae-41d0-bdfb-a7d8a0a9a5f4"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 353.06 184.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c4423239-31a4-4b84-b688-d3704b4e852f")
+		(property "Reference" "#PWR053"
+			(at 359.41 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 356.87 184.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 353.06 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 353.06 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 353.06 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "71c362c7-361e-4ddb-8d1c-e85e0e3edd1f")
+		)
+		(instances
+			(project "OrangePi_Zero3W_UPS_RevA"
+				(path "/2ed0c742-c3ae-41d0-bdfb-a7d8a0a9a5f4"
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -17133,6 +18337,73 @@
 			(project ""
 				(path "/2ed0c742-c3ae-41d0-bdfb-a7d8a0a9a5f4"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 353.06 173.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eebb72de-28ed-471b-97d1-60e4821c1b3f")
+		(property "Reference" "#PWR055"
+			(at 359.41 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 356.87 173.9899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 353.06 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 353.06 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 353.06 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4fc81ac-821d-4f57-8729-3a9044656d94")
+		)
+		(instances
+			(project "OrangePi_Zero3W_UPS_RevA"
+				(path "/2ed0c742-c3ae-41d0-bdfb-a7d8a0a9a5f4"
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)

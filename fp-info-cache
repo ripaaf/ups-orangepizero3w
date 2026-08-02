@@ -1,4 +1,4 @@
-26638156936280520
+26650656621125717
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -13,6 +13,13 @@ audio belton reverb
 0
 7
 7
+BQ25895RTWR
+QFN50P400X400X80-25N
+
+
+0
+25
+25
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -61347,6 +61354,20 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
+ESDA7P120-1U1M
+TVS_ESDA7P120-1U1M
+
+
+0
+2
+2
+ESDA25P35-1U1M
+TVS_ESDA25P35-1U1M
+
+
+0
+2
+2
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -97117,6 +97138,20 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+STL9P3LLH6
+TRANS_STL9P3LLH6
+
+
+0
+7
+7
+STUSB4500LQTR
+QFN50P400X400X100-25N
+
+
+0
+25
+25
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
@@ -99217,6 +99252,13 @@ Logo WEEE
 0
 0
 0
+TPS61088RHLR
+IC_TPS61088RHLR
+
+
+0
+29
+29
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
@@ -105482,6 +105524,13 @@ igbt diode module
 0
 25
 25
+USBLC6-2SC6
+SOT95P280X145-6N
+
+
+0
+6
+6
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins

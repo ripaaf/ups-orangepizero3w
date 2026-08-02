@@ -5700,158 +5700,6 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 17.78 -25.4 180)
-					(length 5.08)
-					(hide yes)
-					(name "PGND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 -25.4 180)
-					(length 5.08)
-					(hide yes)
-					(name "PGND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 -25.4 180)
-					(length 5.08)
-					(hide yes)
-					(name "PGND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "24"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 -25.4 180)
-					(length 5.08)
-					(hide yes)
-					(name "PGND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 -25.4 180)
-					(length 5.08)
-					(hide yes)
-					(name "PGND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "26"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 -25.4 180)
-					(length 5.08)
-					(hide yes)
-					(name "PGND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "27"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 -25.4 180)
-					(length 5.08)
-					(hide yes)
-					(name "PGND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "28"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 -25.4 180)
-					(length 5.08)
-					(hide yes)
-					(name "PGND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "29"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
 			)
 			(symbol "TPS61088RHLR_1_0"
 				(pin power_in line
@@ -17578,26 +17426,11 @@
 		(pin "20"
 			(uuid "de1efcf2-795b-452f-ba64-313f29c1903e")
 		)
-		(pin "26"
-			(uuid "168ea7e9-7c11-4538-9b1f-d552ddb3f3e6")
-		)
 		(pin "2"
 			(uuid "3b26fede-2afc-4830-9dee-8a77141df5b1")
 		)
 		(pin "7"
 			(uuid "0f27f721-ae67-4981-a288-07f39abe626d")
-		)
-		(pin "24"
-			(uuid "a080152e-a8b3-4568-b188-2bb9ed4af47f")
-		)
-		(pin "25"
-			(uuid "823168ed-7a93-49df-b024-b04757505423")
-		)
-		(pin "22"
-			(uuid "983ff1fb-fcb7-4c49-beb3-8189e5aece33")
-		)
-		(pin "23"
-			(uuid "1d31bbe5-83bd-40c0-9fb0-ca178a1084e8")
 		)
 		(pin "6"
 			(uuid "6171ab5a-2277-418f-af49-6ad8a621b751")
@@ -17649,15 +17482,6 @@
 		)
 		(pin "21"
 			(uuid "54699a4a-4854-490b-a09d-a4770c49a558")
-		)
-		(pin "29"
-			(uuid "164319ba-4a2f-46a6-9823-c7b4fb45288b")
-		)
-		(pin "27"
-			(uuid "f98388c2-dbac-4dfc-9235-9fc249ff58bc")
-		)
-		(pin "28"
-			(uuid "f90ad3ec-9206-46aa-ba77-19727ad9268c")
 		)
 		(instances
 			(project ""

@@ -1,4 +1,4 @@
-26652442323529071
+26650656626688439
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -99257,15 +99257,8 @@ IC_TPS61088RHLR
 
 
 0
-21
-21
-TPS61088RHLR-copy
-IC_TPS61088RHLR-copy
-
-
-0
 29
-29
+21
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf

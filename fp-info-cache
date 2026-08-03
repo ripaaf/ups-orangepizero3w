@@ -1,4 +1,4 @@
-26650656626688439
+26659585344767577
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -13,6 +13,13 @@ audio belton reverb
 0
 7
 7
+B3U-1000P
+SW_B3U-1000P
+
+
+0
+2
+2
 BQ25895RTWR
 QFN50P400X400X80-25N
 
@@ -62670,6 +62677,13 @@ LCDI2CADAPTER
 0
 20
 20
+IHLP2525CZER2R2M01
+INDM686X647X300N
+
+
+0
+2
+2
 Inductor_SMD
 L_6.3x6.3_H3
 Choke, SMD, 6.3x6.3mm 3mm height
@@ -99252,6 +99266,13 @@ Logo WEEE
 0
 0
 0
+TPS25947_fixed
+TPS259470ARPWR_RPW0010A
+Texas Instruments RPW0010A VQFN-HR-10, 2.0x2.0mm, 0.45mm pitch; corner terminals use duplicate same-number pad primitives to form the recommended L-shaped lands
+TPS25947 RPW0010A VQFN-HR-10 eFuse
+0
+14
+10
 TPS61088RHLR
 IC_TPS61088RHLR
 
@@ -99259,6 +99280,13 @@ IC_TPS61088RHLR
 0
 29
 21
+TPS61088RHLR
+Untitled
+
+
+0
+0
+0
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
@@ -106315,3 +106343,10 @@ Varistor VF
 0
 2
 2
+XGL6030
+Coilcraft_XGL6030
+
+
+0
+0
+0

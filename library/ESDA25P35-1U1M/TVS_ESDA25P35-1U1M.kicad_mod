@@ -8,8 +8,8 @@
   (fp_text value TVS_ESDA25P35-1U1M (at 5.9152 1.3064 0) (layer F.Fab)
     (effects (font (size 0.64 0.64) (thickness 0.15)))
   )
-  (pad C smd rect (at -0.625 0.0) (size 0.55 0.8) (layers F.Cu F.Mask) (solder_mask_margin 0.102))
-  (pad A smd rect (at 0.625 0.0) (size 0.55 0.8) (layers F.Cu F.Mask) (solder_mask_margin 0.102))
+  (pad C smd rect (at -0.625 0.0) (size 0.55 0.8) (layers F.Cu F.Mask))
+  (pad A smd rect (at 0.625 0.0) (size 0.55 0.8) (layers F.Cu F.Mask))
   (fp_poly
     (pts
       (xy -0.885 -0.38)

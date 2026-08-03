@@ -226,7 +226,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "lib_symbol_mismatch|3187700|2324100|8e148e02-dc3c-4d9d-a9ee-34c09570ac67|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -525,75 +530,75 @@
     "netclass_patterns": [
       {
         "netclass": "POWER_MAIN",
-        "pattern": "BAT_POS"
+        "pattern": "/BAT_POS"
       },
       {
         "netclass": "POWER_MAIN",
-        "pattern": "SYS_BAT"
+        "pattern": "/SYS_BAT"
       },
       {
         "netclass": "POWER_MAIN",
-        "pattern": "BOOST_5V_RAW"
+        "pattern": "/BOOST_5V_RAW"
       },
       {
         "netclass": "POWER_MAIN",
-        "pattern": "UPS_5V"
+        "pattern": "/UPS_5V"
       },
       {
         "netclass": "POWER_MAIN",
-        "pattern": "USB_VBUS_RAW"
+        "pattern": "/USB_VBUS_RAW"
       },
       {
         "netclass": "POWER_MAIN",
-        "pattern": "USB_VBUS_SAFE"
+        "pattern": "/USB_VBUS_SAFE"
       },
       {
         "netclass": "SWITCH_NODE",
-        "pattern": "SW_CHG"
+        "pattern": "/SW_CHG"
       },
       {
         "netclass": "SWITCH_NODE",
-        "pattern": "BOOST_SW"
+        "pattern": "/BOOST_SW"
       },
       {
         "netclass": "SIGNAL_CTRL",
-        "pattern": "USB_DP_CONN"
+        "pattern": "/USB_DP_CONN"
       },
       {
         "netclass": "SIGNAL_CTRL",
-        "pattern": "USB_DM_CONN"
+        "pattern": "/USB_DM_CONN"
       },
       {
         "netclass": "SIGNAL_CTRL",
-        "pattern": "USB_DP"
+        "pattern": "/USB_DP"
       },
       {
         "netclass": "SIGNAL_CTRL",
-        "pattern": "USB_DM"
+        "pattern": "/USB_DM"
       },
       {
         "netclass": "SIGNAL_CTRL",
-        "pattern": "USB_CC1"
+        "pattern": "/USB_CC1"
       },
       {
         "netclass": "SIGNAL_CTRL",
-        "pattern": "USB_CC2"
+        "pattern": "/USB_CC2"
       },
       {
         "netclass": "SIGNAL_CTRL",
-        "pattern": "I2C_SDA"
+        "pattern": "/I2C_SDA"
       },
       {
         "netclass": "SIGNAL_CTRL",
-        "pattern": "I2C_SCL"
+        "pattern": "/I2C_SCL"
       },
       {
         "netclass": "SIGNAL_CTRL",
-        "pattern": "USB_VBUS_GATE"
+        "pattern": "/USB_VBUS_GATE"
       },
       {
         "netclass": "ANALOG_SENSE",
-        "pattern": "BAT_NTC"
+        "pattern": "/BAT_NTC"
       },
       {
         "netclass": "ANALOG_SENSE",

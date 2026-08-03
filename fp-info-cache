@@ -1,4 +1,4 @@
-26659585344767577
+26661372251373269
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -6709,6 +6709,13 @@ Capacitor_Tantalum_SMD
 CP_EIA-7361-438_AVX-U_HandSolder
 Tantalum Capacitor SMD AVX-U (7361-438 Metric), IPC-7352 nominal, (Body size from: http://datasheets.avx.com/NOS.pdf), generated with kicad-footprint-generator
 capacitor tantalum
+0
+2
+2
+Coilcraft_XGL6030
+Coilcraft_XGL6030
+Coilcraft XGL6030 shielded power inductor, recommended land pattern; suitable for XGL6030-122MEC 1.2uH
+Coilcraft XGL6030 shielded power inductor 1.2uH high current
 0
 2
 2
@@ -106345,8 +106352,8 @@ Varistor VF
 2
 XGL6030
 Coilcraft_XGL6030
-
-
+Coilcraft XGL6030 shielded power inductor, recommended land pattern; suitable for XGL6030-122MEC 1.2uH
+Coilcraft XGL6030 shielded power inductor 1.2uH high current
 0
-0
-0
+2
+2

@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "TPS25947_fixed")(type "KiCad")(uri "C:/Users/rifa/Documents/KiCad/OrangePi_Zero3W_UPS_RevA/TPS259470ARPWR_KiCad_Fixed/TPS259470ARPWR_KiCad_Fixed/libraries/TPS25947_fixed.kicad_sym")(options "")(descr ""))
+)

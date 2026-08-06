@@ -4037,6 +4037,254 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Jumper:SolderJumper_3_Open"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at -2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_3_Open"
+				(at 0 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Solder Jumper, 3-pole, open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Solder Jumper SPDT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_3_Open_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.016) (xy -1.016 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.016 -1.016)
+					(mid -2.0276 0)
+					(end -1.016 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.016 -1.016)
+					(mid -2.0276 0)
+					(end -1.016 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -0.508 1.016)
+					(end 0.508 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.016 1.016)
+					(mid 2.0276 0)
+					(end 1.016 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.016 1.016)
+					(mid 2.0276 0)
+					(end 1.016 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.016) (xy 1.016 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SolderJumper_3_Open_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MAX17048G_T10:MAX17048G_T10"
 			(pin_names
 				(offset 1.016)
@@ -7829,6 +8077,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "NTC SELECT\n1-2: BATTERY NTC - DEFAULT\n2-3: 10k FIXED BYPASS - NO TEMP PROTECTION\nDO NOT BRIDGE BOTH"
+		(exclude_from_sim no)
+		(at 225.298 70.612 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+		)
+		(uuid "07043ab4-6a4e-49f3-8555-cdeb2ec0c467")
+	)
 	(text "TPS61088RHLR\nSynchronous boost: SYS_BAT → 5.1V\nTarget output: 5V / 3A peak design goal"
 		(exclude_from_sim no)
 		(at 285.242 113.792 0)
@@ -8689,6 +8947,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 83.82) (xy 222.25 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33051b21-3f8c-4b51-b225-f80178cfaf2c")
+	)
+	(wire
+		(pts
 			(xy 257.81 135.89) (xy 297.18 135.89)
 		)
 		(stroke
@@ -8706,6 +8974,16 @@
 			(type default)
 		)
 		(uuid "3478a170-435f-48de-9e50-b4b57bb4d4c3")
+	)
+	(wire
+		(pts
+			(xy 220.98 95.25) (xy 223.52 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34c7d776-70fe-4f93-bb54-ab88a612bacc")
 	)
 	(wire
 		(pts
@@ -8736,6 +9014,16 @@
 			(type default)
 		)
 		(uuid "374125bb-a965-4e25-a0e7-26e7faa42399")
+	)
+	(wire
+		(pts
+			(xy 226.06 83.82) (xy 222.25 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38f49df8-e5f5-4483-b0f1-d069ebf05fe9")
 	)
 	(wire
 		(pts
@@ -9759,6 +10047,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 78.74) (xy 222.25 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bad42a60-a966-4fbc-be76-5cd12e1e5884")
+	)
+	(wire
+		(pts
 			(xy 92.71 53.34) (xy 92.71 54.61)
 		)
 		(stroke
@@ -9766,6 +10064,16 @@
 			(type default)
 		)
 		(uuid "bc48e7d9-09ef-4d97-ba55-e094364603e4")
+	)
+	(wire
+		(pts
+			(xy 214.63 81.28) (xy 222.25 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd962fc8-3a68-404a-a31c-3d11ccd29142")
 	)
 	(wire
 		(pts
@@ -10039,6 +10347,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 73.66) (xy 222.25 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d947cd08-4bdf-4d61-bc82-d6e13d23c16b")
+	)
+	(wire
+		(pts
 			(xy 57.15 241.3) (xy 55.88 241.3)
 		)
 		(stroke
@@ -10166,6 +10484,26 @@
 			(type default)
 		)
 		(uuid "eafa2d1b-05a4-4f52-9485-7d9e6a01357f")
+	)
+	(wire
+		(pts
+			(xy 226.06 73.66) (xy 222.25 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebf2ce24-d97c-4afd-81d6-8a29a9e0ab04")
+	)
+	(wire
+		(pts
+			(xy 215.9 76.2) (xy 222.25 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecddade4-2ca2-4017-bddc-350e09fd44e2")
 	)
 	(wire
 		(pts
@@ -10367,6 +10705,16 @@
 		)
 		(uuid "0c8495c5-554b-440c-8013-9138acaba406")
 	)
+	(label "TS_BYPASS"
+		(at 231.14 95.25 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "0d76103f-8520-41e6-856c-cbfa628eab8e")
+	)
 	(label "SW_CHG"
 		(at 304.8 41.91 0)
 		(effects
@@ -10456,6 +10804,16 @@
 			(justify left bottom)
 		)
 		(uuid "28c8070d-8946-4728-b1a4-dcfe03027b7e")
+	)
+	(label "TS_SENSE"
+		(at 215.9 78.74 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "2ff25be2-89a9-4475-9137-302ad85e110c")
 	)
 	(label "USB_VBUS_SAFE"
 		(at 294.64 100.33 0)
@@ -10577,7 +10935,7 @@
 		)
 		(uuid "572171f3-54cb-466b-9795-6ce7786d5294")
 	)
-	(label "BAT_NTC"
+	(label "TS_SENSE"
 		(at 264.16 90.17 0)
 		(effects
 			(font
@@ -10646,6 +11004,16 @@
 			(justify left bottom)
 		)
 		(uuid "61f1fcd5-c8c7-4cdf-a419-90ba5964a336")
+	)
+	(label "BAT_NTC"
+		(at 215.9 76.2 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "623c78b0-cd36-43c7-8d3b-81b805e62cec")
 	)
 	(label "USB_VBUS_GATE"
 		(at 251.46 279.4 0)
@@ -10846,6 +11214,16 @@
 			(justify left bottom)
 		)
 		(uuid "8de40e6a-d20a-4eb7-bf00-bf69fdc45ca1")
+	)
+	(label "TS_BYPASS"
+		(at 214.63 81.28 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "9472c7d0-128c-42be-85d0-23ae52bfaf94")
 	)
 	(label "BAT_POS"
 		(at 137.16 31.75 0)
@@ -16317,6 +16695,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_3_Open")
+		(at 226.06 78.74 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e4c8568-87d1-4145-9647-c9fa91e1014c")
+		(property "Reference" "JP1"
+			(at 228.6 77.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NTC_SELECT"
+			(at 228.6 80.0099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels"
+			(at 226.06 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 3-pole, open"
+			(at 226.06 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "4e13fb7a-1bde-4021-b5ab-a2338223f285")
+		)
+		(pin "1"
+			(uuid "99f32653-af02-40b3-a01c-4c21f25de121")
+		)
+		(pin "2"
+			(uuid "7915dad7-cb63-4640-aed3-ebb6136bc79a")
+		)
+		(instances
+			(project ""
+				(path "/2ed0c742-c3ae-41d0-bdfb-a7d8a0a9a5f4"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 101.6 158.75 270)
 		(unit 1)
@@ -19377,6 +19828,83 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 227.33 95.25 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3147f26-a3b6-4506-954a-bb6b6981155f")
+		(property "Reference" "R24"
+			(at 227.33 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 227.33 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 227.33 93.472 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 227.33 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 227.33 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 227.33 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f803029-7539-456b-ba09-b03bc474009b")
+		)
+		(pin "2"
+			(uuid "a48d0784-3dcf-4ad9-82c0-4a34945b3f3d")
+		)
+		(instances
+			(project "OrangePi_Zero3W_UPS_RevA"
+				(path "/2ed0c742-c3ae-41d0-bdfb-a7d8a0a9a5f4"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 210.82 261.62 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20198,6 +20726,73 @@
 			(project ""
 				(path "/2ed0c742-c3ae-41d0-bdfb-a7d8a0a9a5f4"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 220.98 95.25 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b2e1929b-4e37-4e6c-9ab8-e35c56bb29dd")
+		(property "Reference" "#PWR075"
+			(at 214.63 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 217.17 95.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 220.98 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "adbcdc6e-08db-4fd5-a100-3814121e0648")
+		)
+		(instances
+			(project "OrangePi_Zero3W_UPS_RevA"
+				(path "/2ed0c742-c3ae-41d0-bdfb-a7d8a0a9a5f4"
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
